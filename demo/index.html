@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta viewport="width=device-width, initial-scale=1.0">
+		<title>HTML Quiz</title>
+	</head>
+	<body>
+		<div class="card-white">
+			<h2>1. Está pagina está sem CSS ):</h2>
+			<h3>É seu trabalho descobrir <strong>como corrigir este problema.</strong></h3>
+		</div>
+
+		<div class="card-white">
+			<h2>2. Qual dos códigos estão corretos?</h2>
+			<div class="form-control">
+				<input type="checkbox" id="answer" name="answer" onclick="setTimeout(function(){ alert(answer); }, 300);">
+				<p class="code">
+					<code>
+						<span>&lt;!DOCTYPE</span>&nbsp;<span>html&gt;</span>
+						<br>
+						<span>&lt;html&gt;</span>
+						<br>
+						<span>&nbsp;&lt;head&gt;</span>
+						<br>
+						<span>&nbsp;&nbsp;&lt;meta</span>&nbsp;<span>charset=</span><span>"utf-8"</span><span>&gt;</span>
+						<br>
+						<span>&nbsp;&nbsp;&lt;title&gt;</span><span>My Profile Page</span><span>&lt;/title&gt;</span>
+						<br>
+						<span>&nbsp;&nbsp;&lt;meta</span>&nbsp;<span>viewport=</span><span>"width=device-width, initial-scale=1.0"</span><span>&gt;</span>
+						<br>
+						<span>&nbsp;&nbsp;&lt;link</span>&nbsp;<span>rel=</span><span>"stylesheet"</span>&nbsp;<span>href=</span><span>"style.css"</span><span>&gt;</span>
+						<br>
+						<span>&nbsp;&lt;/head&gt;</span>
+						<br>
+						<span>&nbsp;&lt;body&gt;</span>
+						<br>
+						<span>&nbsp;&nbsp;&lt;h1&gt;</span><span>Hello World! 😎</span><span>&lt;/h1&gt;</span>
+						<br>
+						<span>&nbsp;&lt;/body&gt;</span>
+						<br>
+						<span>&lt;/html&gt;</span>
+					</code>
+				</p>
+				</input>
+			</div>
+			<div class="form-control">
+				<input type="checkbox" id="answer" name="answer" onchange="setTimeout(function(){ alert(wanswer); }, 300);">
+				<p class="code">
+					<code>
+						<span>&lt;!DOCTYPE</span>&nbsp;<span>html&gt;</span>
+						<br>
+						<span>&lt;html&gt;</span>
+						<br>
+						<span>&nbsp;&nbsp;&lt;meta</span>&nbsp;<span>charset=</span><span>"utf-8"</span><span>&gt;</span>
+						<br>
+						<span>&nbsp;&nbsp;&lt;title&gt;</span><span>My Profile Page</span><span>&lt;/title&gt;</span>
+						<br>
+						<span>&nbsp;&nbsp;&lt;meta</span>&nbsp;<span>viewport=</span><span>"width=device-width, initial-scale=1.0"</span><span>&gt;</span>
+						<br>
+						<span>&nbsp;&nbsp;&lt;link</span>&nbsp;<span>rel=</span><span>"stylesheet"</span>&nbsp;<span>href=</span><span>"style.css"</span><span>&gt;</span>
+						<br>
+						<span>&nbsp;&lt;body&gt;</span>
+						<br>
+						<span>&nbsp;&nbsp;&lt;h1&gt;</span><span>Hello World! 😎</span><span>&lt;/h1&gt;</span>
+						<br>
+						<span>&nbsp;&lt;/body&gt;</span>
+						<br>
+						<span>&lt;/html&gt;</span>
+					</code>
+				</p>
+				</input>
+			</div>
+		</div>
+
+		<div class="card-white">
+			<h2>Qual a ordem correta dos elementos?</h2>
+			<img src="syntax.png" alt="" style="height: 40px;">
+			<div class="flex-column">
+				<ul style="list-style-type: none;">
+					<li style="text-align: left; margin-bottom: 5px;"><input style="margin-right: 18px;" type="checkbox" id="answer" name="answer" onclick="setTimeout(function(){ alert(answer); }, 300);">Tag Inicial, Atributos, Conteúdo, Tag Final</input></li>
+					<li style="text-align: left; margin-bottom: 5px;"><input style="margin-right: 18px;" type="checkbox" id="answer" name="answer" onclick="setTimeout(function(){ alert(wanswer); }, 300);">Tag Inicial, Conteúdo, Atributos, Tag Final</input></li>
+					<li style="text-align: left; margin-bottom: 5px;"><input style="margin-right: 18px;" type="checkbox" id="answer" name="answer" onclick="setTimeout(function(){ alert(wanswer); }, 300);">Tag Inicial, Nome, Atributos, Conteúdo, Tag Final</input></li>
+					<li style="text-align: left; margin-bottom: 5px;"><input style="margin-right: 18px;" type="checkbox" id="answer" name="answer" onclick="setTimeout(function(){ alert(wanswer); }, 300);">Tag Inicial, Valor, Chave, Conteúdo, Tag Final</input></li>	
+				</ul>
+			</div>
+		</div>
+		
+		<div class="card-white">
+			<h2>Posicionamento</h2>
+			<span>Esta div está desalinhada, é seu papel alinha-lá no centro.</span>
+			<div class="div-mark">
+				<div class="div-red"></div>
+			</div>
+		</div>
+		<script>
+			const answer = "Parabéns, resposta correta!";
+			const wanswer = "Ops, resposta incorreta!";
+		</script>
+	</body>
+</html>

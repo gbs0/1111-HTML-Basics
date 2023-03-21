@@ -1,0 +1,90 @@
+@import url('https://fonts.google.com/css?family=Open+Sans:');
+
+body {
+	font-family: 'Open Sans';
+	background-color: rgb(240,240,240);
+}
+
+h1, h2 {
+	font-family: 'Poppins';
+}
+
+h1 {
+	color: #3c415e;
+}
+
+h2 {
+	color: #3c415e;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	/*color: #2688D2;*/
+}
+
+a:hover {
+	color: #1B6295;
+}
+
+.form-control
+{
+	padding: 2px;
+	display: flex;
+	align-items: center;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.card-white {
+	background-color: white;
+	padding: 24px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	width: 900px;
+	margin: 24px auto;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.list-inline{
+	list-style: none;
+	padding: 0;
+}
+
+.list-inline li{
+	display: inline-block;
+}
+
+.code {
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border: 1px solid #BCBEC0;
+    padding: 10px 20px;
+    font: 15px Monaco,Consolas,"Andale  Mono","DejaVu Sans Mono",monospace;
+	color: #e84428;
+	text-align: left;
+	margin-left: 20px;
+	width: 90%;
+	background-color: #bcbec074;
+}
+
+.div-mark {
+	margin-top: 25px;
+	border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border: 1px solid #BCBEC0;
+	height: 100px;
+	padding: 25px;
+}
+
+.div-red {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
